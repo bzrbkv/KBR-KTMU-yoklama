@@ -34,7 +34,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:textCursorDrawable="@drawable/edittext_cursor"
-        android:hint="@string/confirm_password"
+        android:hint="status"
         android:textColorHint="@color/white"
         android:ems="10"
         android:inputType="textPassword" />

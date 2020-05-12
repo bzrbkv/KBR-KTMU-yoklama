@@ -54,5 +54,21 @@ public class Admin_1Activity extends AppCompatActivity {
                 startActivity(registerIntent_sp_student);
             }
         });
+
+        sp_teacher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registerIntent_sp_student = new Intent(Admin_1Activity.this, Admin_teacher_spisokActivity.class);
+                startActivity(registerIntent_sp_student);
+            }
+        });
+
+        sp_lesson.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registerIntent_sp_student = new Intent(Admin_1Activity.this, Admin_lesson_spisokActivity.class);
+                startActivity(registerIntent_sp_student);
+            }
+        });
     }
 }
